@@ -1,0 +1,156 @@
+.cart-items {
+  background: #f6f9fc;
+  height: auto;
+  padding: 50px 0;
+}
+
+.cart-items .cart-details {
+  width: 70%;
+}
+
+.cart-items .cart-total {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 130px;
+}
+.cart-list {
+  background: white;
+  margin-top: 30px;
+}
+.cart-items .img {
+  width: 150px;
+  height: 150px;
+}
+.cart-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.cart-items .cart-details h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.cart-items .cart-details h4 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 50px;
+  color: grey;
+}
+.cart-items h4 span {
+  color: #f86c00;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.removeCart {
+  background: none;
+  font-size: 25px;
+  text-align: right;
+  margin-right: 10px;
+}
+.cartControl {
+  margin-top: 50px;
+}
+.cartControl button {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.incCart {
+  background: none;
+  border: 1px solid rgb(3 0 71 / 9%);
+  color: #f86c00;
+}
+.desCart {
+  background: #f6f9fc;
+}
+.cart-total h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.cart-total h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f86c00;
+}
+.cart-total h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(3 0 71 / 9%);
+  padding-bottom: 10px;
+  color: #f86c00;
+}
+.no-items {
+  color: #f86c00;
+  font-size: 18px;
+  margin-top: 30px;
+  height: 130px;
+}
+.Aorder{
+  justify-content:center ;
+  align-items: center;
+  bottom:auto;
+}
+.order{
+  cursor: pointer;
+  background: linear-gradient(145deg, #e2e8ec,green);
+    color:white;
+    border-radius: 50%;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 25px;
+}
+.corder{
+  cursor: pointer;
+  background: linear-gradient(145deg, #e2e8ec,red);
+    color: white;
+    border-radius: 100%;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 15px;
+}
+.form{
+  background-color:white ;
+  padding: 20px;
+  box-shadow:4px 4px 20px 4px rgba(0,0,0,1) ;
+  border-radius: 5px;
+}
+.from label{
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+.form input{
+  border: 1px solid rgb(176,176,176);
+  outline: none;
+  padding: 10px;
+  width: 40%;
+  border-radius: 4px;
+  margin-bottom:10px;
+  margin-top: 4px;
+} 
+.form button{ 
+background-color: rgb(0,127,239);
+color: white;
+border: none;
+width: 40%;
+padding:12px 0;
+border-radius: 4px;
+margin-top: 10px;
+font-size: 14px;
+cursor: pointer;
+} 
+.form{
+background-color: rgb(248,248,248);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family:"poppins",sans-serif ;
+}
